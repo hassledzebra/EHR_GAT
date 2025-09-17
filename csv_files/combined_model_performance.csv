@@ -1,0 +1,36 @@
+Model,Comorbidities,Test AUC
+Decision Tree,20,0.7028
+Decision Tree,50,0.6875
+Decision Tree,100,0.6774
+Decision Tree,200,0.7341
+Decision Tree,500,0.7502
+Random Forest,20,0.7171
+Random Forest,50,0.7122
+Random Forest,100,0.7097
+Random Forest,200,0.7472
+Random Forest,500,0.7733
+Gradient Boosting Tree,20,0.519
+Gradient Boosting Tree,50,0.5299
+Gradient Boosting Tree,100,0.5298
+Gradient Boosting Tree,200,0.6349
+Gradient Boosting Tree,500,0.6702
+Multilayer Perceptron,20,0.5038
+Multilayer Perceptron,50,0.523
+Multilayer Perceptron,100,0.5237
+Multilayer Perceptron,200,0.6311
+Multilayer Perceptron,500,0.667
+Support Vector Machine,20,0.6517
+Support Vector Machine,50,0.6645
+Support Vector Machine,100,0.6798
+Support Vector Machine,200,0.7334
+Support Vector Machine,500,0.7516
+GAT Model (No Diag),500,0.7609
+GAT Model (No Diag),200,0.73
+GAT Model (No Diag),100,0.7237
+GAT Model (No Diag),50,0.6924
+GAT Model (No Diag),20,0.6477
+GAT Model (With Diag),500,0.8021
+GAT Model (With Diag),200,0.79
+GAT Model (With Diag),100,0.7078
+GAT Model (With Diag),50,0.7044
+GAT Model (With Diag),20,0.6255

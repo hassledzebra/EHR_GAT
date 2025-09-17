@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch models
+*.pth
+*.pkl
+
+# Data files (keep synthetic data but ignore original)
+data/EPI_heterodata_*.h5
+!synthetic_data/
+
+# Logs and temporary files
+*.log
+*.tmp
+experiment_progress.txt
+experiment_status.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (can be regenerated)
+results/*.csv
+plots/*.png
+plots/*.pdf
+
+# Keep directory structure but ignore contents
+results/.gitkeep
+plots/.gitkeep
+
+# Model checkpoints
+models/*.pth
+models/*.pkl
+
+# Large files
+*.h5
+!synthetic_data/*.h5
