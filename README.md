@@ -61,8 +61,8 @@ The synthetic data is generated using advanced statistical methods that:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/epi-prediction.git
-cd epi-prediction
+git clone git@github.com:hassledzebra/EHR_GAT.git
+cd EHR_GAT
 
 # Install dependencies
 pip install -r requirements.txt
@@ -284,19 +284,6 @@ python run_hetero_gat_training.py --parallel --n-jobs 4
 pip install torch torch-geometric scikit-learn pandas numpy matplotlib seaborn
 ```
 
-## 📄 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{epi_heterogat_2024,
-  title={Epilepsy Prediction using Heterogeneous Graph Attention Networks},
-  author={Your Name et al.},
-  journal={Journal of Medical AI},
-  year={2024},
-  note={Software available at: https://github.com/your-org/epi-prediction}
-}
-```
 
 ## 📜 License
 
@@ -311,6 +298,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**📬 Contact**: For questions or collaboration opportunities, please open an issue or contact [your.email@domain.com]
+**📬 Contact**: For questions or collaboration opportunities, please open an issue on GitHub.
 
-**🔗 Links**: [Demo Dashboard](https://your-org.github.io/epi-prediction) | [Documentation](https://docs.your-org.com/epi) | [Paper](https://arxiv.org/abs/xxxx.xxxxx)
+**🔗 Links**: [Repository](https://github.com/hassledzebra/EHR_GAT) | [Interactive Dashboard](dashboard.html)
