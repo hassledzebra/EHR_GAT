@@ -19,16 +19,6 @@ This project implements a sophisticated machine learning pipeline for predicting
 - 📈 **Interactive Dashboard**: Real-time monitoring and result visualization
 - 📋 **Reproducible Research**: Complete experimental framework with progress tracking
 
-## 🏆 Performance Highlights
-
-| Model | AUC-ROC | AUC-PR | Accuracy | F1-Score |
-|-------|---------|---------|----------|----------|
-| **HeteroGAT (self-connect)** | **0.828 ± 0.011** | **0.790 ± 0.010** | **0.802 ± 0.012** | **0.787 ± 0.014** |
-| HeteroGAT (no self-connect) | 0.790 ± 0.014 | 0.746 ± 0.012 | 0.776 ± 0.015 | 0.759 ± 0.014 |
-| Logistic Regression | 0.654 ± 0.019 | 0.342 ± 0.021 | 0.623 ± 0.015 | 0.405 ± 0.023 |
-| SVM | 0.642 ± 0.015 | 0.335 ± 0.020 | 0.702 ± 0.010 | 0.357 ± 0.017 |
-
-> **Note**: HeteroGAT with self-connect significantly outperforms all baseline models (p < 0.001)
 
 ## 📊 Dataset Summary
 
