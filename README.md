@@ -213,24 +213,7 @@ The framework supports training on different data fractions:
 - Performance scaling analysis
 - Learning curve generation
 
-## 🎯 Results & Findings
 
-### Key Discoveries
-
-1. **HeteroGAT Superiority**: Graph-based approach significantly outperforms traditional ML
-2. **Self-Connection Benefit**: Diagnosis-diagnosis edges improve performance by 3.8%
-3. **Robust Performance**: Consistent results across different sample sizes
-4. **Statistical Significance**: All improvements validated with p < 0.001
-
-### Clinical Implications
-- **High Sensitivity**: 78.7% recall for epilepsy cases
-- **Precision**: 79.0% precision-recall AUC
-- **Clinical Utility**: Performance suitable for screening applications
-- **Interpretability**: Attention weights reveal important comorbidity patterns
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md).
 
 ### Development Setup
 ```bash
@@ -279,15 +262,3 @@ pip install torch torch-geometric scikit-learn pandas numpy matplotlib seaborn
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Medical dataset provided by [Institution Name]
-- PyTorch Geometric community for graph neural network tools
-- Scikit-learn for baseline model implementations
-- All contributors and reviewers
-
----
-
-**📬 Contact**: For questions or collaboration opportunities, please open an issue on GitHub.
-
-**🔗 Links**: [Repository](https://github.com/hassledzebra/EHR_GAT) | [Interactive Dashboard](dashboard.html)
